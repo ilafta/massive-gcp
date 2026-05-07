@@ -31,7 +31,7 @@ La liste `@authors` contient l'utilisateur lui-même + tous ses followees. Cette
 **Variable :** nombre d'utilisateurs simultanés → 1, 10, 20, 50, 100, 1 000.  
 **Mesure :** temps moyen de réponse de `/api/timeline` (ms), 3 runs par configuration.
 
-![Scalabilité en charge](out/conc.png)
+![Scalabilité en charge](conc.png)
 
 | PARAM (users simultanés) | Temps moyen |
 |:---:|---:|
@@ -50,7 +50,7 @@ La liste `@authors` contient l'utilisateur lui-même + tous ses followees. Cette
 **Variable :** nombre de followees → 20, 40, 60.  
 **Mesure :** temps moyen de réponse de `/api/timeline` (ms), 3 runs par configuration.
 
-![Scalabilité en données](out/fanout.png)
+![Scalabilité en données](fanout.png)
 
 | PARAM (followees) | Temps moyen |
 |:---:|---:|
